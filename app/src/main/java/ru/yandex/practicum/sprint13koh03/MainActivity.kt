@@ -75,7 +75,6 @@ class MainActivity : AppCompatActivity() {
                 override fun onFailure(call: Call<CatalogResponse>, t: Throwable) {
                     Log.e(TAG, "onFailure: $call $t")
                 }
-
             })
     }
 
